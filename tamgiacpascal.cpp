@@ -17,11 +17,16 @@ long tohop(long n,long k)
 int main(){
     int n;
     cin >> n;
-    for(int i=0;i<=n;i++){
+    int n1 = n;
+    for(int i=0;i<n;i++){
+        for (int z=0;z<=n1;z++){
+            cout << " ";
+        }
         for (int j=0;j<=i;j++){
             cout << tohop(i,j) << " ";
         }
         cout << endl;
+        n1--;
     } 
     return 0;
 }
