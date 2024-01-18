@@ -12,29 +12,34 @@ void tamgiac(int n){
 void tamgiacnguoc(int n){
     int n2 =n;
     for (int i =0;i<n;i++){
-        for (int z=0;z<=n2;z++){
+        for (int z=1;z<=n2;z++){
             cout << "* ";
         }
         cout << endl;
         n2--;
     }
 }
-void tamgiac2(int n){
-    int n2 =n;
-    for (int i =0;i<n;i++){
-        for (int z=0;z<=n2;z++){
-            cout << "";
+void tamgiacdeu(int n){
+    for(int i=0;i<n;i++){
+        for (int j=1;j<n-i;j++){
+            cout << " ";
+        }
+        for (int j=0;j<=i;j++){
+            cout << "* ";
         }
         cout << endl;
-        n2--;
     }
 }
+  
 int main(){
     int n =5;
     
     tamgiac(n);
     cout << endl;
     tamgiacnguoc(n);
+    cout << endl;
+    tamgiacdeu(n);
+    cout << endl;
     
     return 0 ;
 }
