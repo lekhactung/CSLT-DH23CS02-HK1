@@ -29,7 +29,7 @@ void SensorNum(int arr[],long n)
 }
 int main(){
 
-    int n = 9876;
+    long long n = 9876;
     int arr[100];
     SensorNum(arr,n);
 }
