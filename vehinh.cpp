@@ -20,14 +20,16 @@ void tamgiacnguoc(int n){
     }
 }
 void tamgiacdeu(int n){
+    int n1=n;
     for(int i=0;i<n;i++){
-        for (int j=1;j<n-i;j++){
+        for (int j=0;j<=n1;j++){
             cout << " ";
         }
         for (int j=0;j<=i;j++){
             cout << "* ";
         }
         cout << endl;
+        n1--;
     }
 }
   
@@ -40,6 +42,16 @@ int main(){
     cout << endl;
     tamgiacdeu(n);
     cout << endl;
+
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n-i;j++){
+            cout << " ";
+        }
+        for(int j=0;j<=i;j++){
+            cout << "@ ";
+        }
+        cout << endl;
+    }
     
     return 0 ;
 }

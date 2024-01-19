@@ -16,7 +16,7 @@ void SensorNum(int arr[],long n)
 {
     long a = SoDaoNguoc(n);
     long i=0,cnt =0;
-    while(a>0){
+    while(a!=0){
         long tmp = a%10;
         arr[i]=tmp;
         i++;

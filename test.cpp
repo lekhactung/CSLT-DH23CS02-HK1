@@ -14,16 +14,29 @@ long tohop(long n,long k){
     return c;
 }
 
+bool snt(int n){
+    if(n<2){
+        return false;
+    } else{
+        
+        for(int i=2;i<=n/2;i++){
+            if(n%2==0){
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
 int main(){
-    long n,k;
-    cin >> n;
-    int n1 =n;
+    long n =5;
+    int n1=n;
     for (int i=0;i<n;i++){
-        for (int j=0;j<=n1;j++){
+        for(int j=0;j<n1;j++){
             cout << " ";
         }
-        for (int j=0;j<=i;j++){
-            cout << tohop(i,j) << " ";
+        for(int j=0;j<=i;j++){
+            cout << tohop(i,j)<< " ";
         }
         cout << endl;
         n1--;
