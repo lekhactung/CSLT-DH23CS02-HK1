@@ -1,0 +1,29 @@
+Bài 1:Hãy viết các hàm sau:
+1) một hàm kiểm tra số nguyên tố
+2) một hàm kiểm tra số thuật nghịch
+3) một hàm tìm các ước lớn hơn 1 và nhỏ hơn n
+4) một hàm tính tổng các phần tử trong 1 số(vd 123 tính 1+2+3)
+5) một hàm tìm ước chung lớn nhất, bội chung nhỏ nhất của 2 số
+6) một hàm tìm các ước nguyên tố của n
+7) một hàm tìm các số thuận nghịch từ A tới B
+8) một hàm tính tích phân của hàm số y=2x^2+3x+5 trong cận a và b
+9)vẽ tam giác đều 
+10)vẽ tam giác pascal và quay nó về bên phải
+11)vẽ hình vuông * có n dòng và n cột
+12) một hàm tính giai thừa của n
+13) một hàm in ra chữ số đầu tiên và cuối cùng của n( VD: 1234 -> 1 4)
+	viết menu:
+	1) kiểm tra số nguyên tố
+	2) kiểm tra số thuật nghịch
+	3) ước của n
+	4) tổng các chữ số của n
+	5) chữ số đầu tiên và cuối cùng của n
+	6) các ước nguyên tố của n
+	7) ước chung lớn nhất, bội chung nhỏ nhất của a và b
+	8) các số thuận nghịch từ A -> B
+	9) tính tích phân của y=2x^2+3x+5
+	10) vẽ tất tam giác
+	11) vẽ hình chữ nhật
+	0) Kết thúc
+Lưu ý:  câu 3 sẽ làm trước câu 4,5,6 (sử dụng chung n)
+	câu 7 làm trước câu 8 (sử dụng chung a và b)

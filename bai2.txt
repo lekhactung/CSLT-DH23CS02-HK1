@@ -1,0 +1,15 @@
+cho một mảng có tối đa 20 phần tử
+viết các hàm:
+1) Nhập mảng
+2) Xuất mảng
+3) Xóa một phần tử trong mảng
+4) Xóa các phần tử trùng nhau
+5) tìm phần tử lớn nhất, lớn nhì, nhỏ nhất, nhỏ nhì
+6) tìm phần tử có tần suất xuất hiện nhiều nhất, in cả giá  trị và tần suất của nó, nếu có nhiều giá trị thỏa mãn thì in tất cả
+7) tính giá trị trung bình tất cả các phần tử trong mảng
+8) tìm số lần xuất hiện của giá trị k trong mảng, nếu k không có trong mảng thì in ra -1
+9)xoay trái mảng k vị trí( VD: 1 2 3 4 5, k=3 -> 3 4 5 1 2)
+10) Tìm các số là số nguyên tố trong mảng
+	viết menu thực hiện tất cả chức năng trên
+Lưu ý: nếu mảng chưa đc khởi tạo thì các chức năng sau sẽ không được thực hiện
+các phần tử trong mảng sẽ được random từ 1->1000
