@@ -66,6 +66,17 @@ int main(){
             }while(min >= max);
             phamvi(a,n,min,max);
             break;
+        case 4: 
+                int first;
+            do{ 
+                cout << "So phong can in: ";
+                cin >> first;
+                if(first<=0){
+                    cout << "Nhap lai!";
+                }
+            }while (n<=0);
+            output(a,first);
+        break;
         default:
             cout << "Nhap lai!" <<endl;
             break;
